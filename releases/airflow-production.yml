@@ -6,9 +6,9 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
 spec:
-  releaseName: airflow-staging
+  releaseName: airflow-production
   chart:
-    repository: https://github.com/jungfrau70/eks-airflow-helm-chart/tree/master/airflow
+    repository: https://marclamberti.github.io/airflow-eks-helm-chart
     name: airflow
     version: 1.0.0
   values:
