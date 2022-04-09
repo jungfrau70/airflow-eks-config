@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: airflow-staging
   chart:
-    repository: https://jungfrau70.github.io/eks-airflow-helm-chart
+    repository: https://github.com/jungfrau70/eks-airflow-helm-chart
     name: airflow
     version: 1.0.0
   values:
