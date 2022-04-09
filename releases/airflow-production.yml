@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: airflow-production
   chart:
-    repository: https://jungfrau70.github.io/airflow-eks-helm-chart
+    repository: https://github.com/jungfrau70/helm-chart-airflow-eks
     name: airflow
     version: 1.0.0
   values:
