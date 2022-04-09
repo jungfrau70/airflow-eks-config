@@ -17,7 +17,7 @@ spec:
       - name: "AIRFLOW__KUBERNETES__DAGS_IN_IMAGE"
         value: "True"
       - name: "AIRFLOW__KUBERNETES__NAMESPACE"
-        vlaue: : "production"
+        vlaue: "production"
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_REPOSITORY"
         vlaue: "apache/airflow"
       - name: "AIRFLOW__KUBERNETES__WORKER_CONTAINER_TAG"
